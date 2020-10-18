@@ -1,0 +1,166 @@
+.nav{
+	/*background-color: #00264d;*/
+	background-color: #13334c;
+	overflow: hidden;
+}
+
+.nav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.2s;
+	font-size: 17px;
+	margin-left: 2px;
+	height: 30px;
+}
+
+.menu{
+	float: right;
+}
+
+#home{
+	float: left;
+}
+
+#logo{
+	width: 80px;
+	height: 30px;
+}
+
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+#btn_toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.nav a:hover{
+	background-color: grey;
+}
+
+.nav a.klik{
+	background-color: grey;
+}
+
+#home:hover{
+	background-color: #00264d;
+}
+
+#nav-icon{
+	display: none;
+}
+
+#menu-list{
+	float: left;
+	overflow: hidden;
+	margin-left: 2px;
+}
+
+#list-down{
+	cursor: pointer;
+	font-size: 17px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	transition: 0.2s;
+}
+
+#list-down:hover{
+	background-color: grey;
+}
+
+#list-daftar{
+	display: none;
+	position: absolute;
+	background-color: #003366;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#list-daftar a{
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	margin-left: 0;
+}
+
+#list-daftar a:hover{
+	background-color: grey;
+}
+
+#menu-list:hover #list-daftar{
+	display: block;
+}
+
+@media only screen and (max-width: 700px){
+	.menu a, #menu-list {display: none;}
+	.nav #nav-icon{
+		float: right;
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.menu.responsive{
+		position: relative;
+		width: 100%;
+	}
+
+	.nav.responsive a#nav-icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.menu.responsive a{
+		float: none;
+		display: block;
+		text-align: right;
+		margin-top: 3px;
+	}
+
+	#menu-list.responsive{
+		display: block;
+		float: none;
+		margin-top: 3px;
+	}
+
+	#list-daftar{
+		width: 100%;
+		position: relative;
+		background-color: #003366;
+	}
+
+	#list-daftar a{
+		text-align: right;
+	}
+
+	#list-down{
+		cursor: pointer;
+		width: 100%;
+		text-align: right;
+	}
+}

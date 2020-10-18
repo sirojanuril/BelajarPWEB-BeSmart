@@ -1,0 +1,63 @@
+.footer{
+	padding: 40px 30px;
+	background-color: #13334c;
+	overflow: hidden;
+	color: white;
+	list-style: none;
+}
+
+.footer a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer-col{
+	float: left;
+	width: 50%;
+}
+
+.footer-daftar{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.footer-daftar li{
+	margin-top: 5px;
+}
+
+#sosmed{
+	font-size: 24px;
+}
+
+#bottom-line{
+	text-align: center;
+}
+
+@media screen and (max-width: 768px){
+	.footer-col{
+		width: 100%;
+		padding: 0;
+	}
+
+	.footer-daftar{
+		width: 50%;
+		margin-top: 10px;
+		text-align: center;
+	}
+}
+
+#bottom-line{
+	font-size: 11px;
+	padding: 5px;
+	color: white;
+	background-color: #005792;
+	overflow: hidden;
+}

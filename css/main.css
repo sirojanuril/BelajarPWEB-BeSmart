@@ -1,0 +1,563 @@
+
+body{
+	margin: 0;
+	font-family:  Verdana, sans-serif;
+}
+
+.main{
+  padding-bottom: 50px;
+	background-color: #c0ebef;
+}
+
+#image_wrap{
+  width: 100%;
+  height: 420px;
+}
+
+#image_wrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#banner{
+  display: flex;
+  background-color: #13334c;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.banner-img{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.banner-img img{
+  width: 100%;
+  height: 200px;
+}
+
+.artikel{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: #11C5C6;
+  border-radius: 0px;
+  margin: 0 auto;
+}
+
+.jenjang{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: red;
+  border-radius: 0px;
+  margin: 0 auto;
+}
+
+#alasan{
+  float: left;
+  padding: 30px;
+  display: block;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  background-color: #11C5C6;
+  width: 65%;
+  overflow: hidden;
+}
+
+#alasan_logo{
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#alasan_logo img{
+	width: 140%;
+}
+
+#paket-logo{
+  float: right;
+  padding: 30px;
+  display: block;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  background-color: #F08080 ;
+  width: 65%;
+}
+
+#paket-logo img{
+	width: 50%;
+}
+
+#paket{
+  float: right;
+  padding: 30px;
+  display: block;
+  position: relative;
+	align-items: center;
+  align-content: center;
+  background-color: #F08080 ;
+  width: 50%;
+	font-size: 45px;
+	text-align: center;
+}
+
+#paket li{
+	list-style: none;
+}
+
+#btn-daftar{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #0059b3;
+  border-color: #0059b3;
+	cursor: pointer;
+}
+
+#btn-daftar:hover{
+  background-color: #3c55f7;
+}
+
+#content {
+	 float: left;
+	 width: 73%;
+	 box-sizing: border-box;
+	 box-shadow: 0px 0px 2px 2px;
+	 background-color: #e9edf6 ;
+	 padding: 30px;
+	 padding-bottom: 100px;
+	 border-radius: 10px;
+}
+
+#content h3{
+	text-align: center;
+}
+
+#content input{
+	text-align: left;
+	margin: 0px -215px;
+}
+
+#jawaban{
+	color: red;
+	font-style: italic;
+}
+
+aside {
+	 float: right;
+	 width: 25%;
+	 padding-left: 10px;
+	 padding-bottom: 40px;
+	 box-sizing: border-box;
+	 background-color:  #a2b6e0 ;
+	 border-radius: 10px;
+	 box-shadow: 0px 0px 2px 2px;
+	 overflow: hidden;
+}
+
+textarea{
+	width: 900px;
+	height: 200px;
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 20px;
+	text-align: justify;
+}
+
+#aside-judul h3{
+	text-align: center;
+}
+
+.title-login img{
+  display: block;
+  margin: auto;
+  width: 10%;
+}
+
+.title-login h3{
+  text-align: center;
+}
+
+#form-daftar{
+  border-radius: 10px;
+  background-color: #9f9f9f ;
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.submit-daftar{
+  padding: 15px;
+  width: 15%;
+  border-radius: 10px;
+	background-color: #0059b3;
+  border-color: #0059b3;
+  color: white;
+	cursor: pointer;
+}
+
+.submit-daftar:hover{
+  background-color: #3c55f7;
+}
+
+#keterangan-login a{
+	text-decoration: none;
+	color: red;
+}
+
+main {
+	 padding: 20px;
+	 overflow: auto;
+}
+
+.flex-container-column {
+	 display: flex;
+	 flex-direction: column;
+	 max-width: 900px;
+	 margin: 0 auto;
+	 text-align: right;
+}
+
+.flex-container-row {
+	 display: flex;
+	 margin: 0 auto;
+}
+
+input{
+  width: 50%;
+  padding: 10px;
+	border-radius: 10px;
+}
+
+.selectPilih{
+  width: 26%;
+  padding: 10px;
+}
+
+.number{
+	width: 40px;
+	height: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #ced2ee;
+	border-color: black;
+	color: black;
+}
+
+#number_pilih{
+	background-color: #3c55f7;
+}
+
+.number:hover{
+	background-color: #3c55f7;
+	color: white;
+}
+
+.button{
+	padding: 10px;
+}
+
+.nilainav .tabel{
+  margin: 0 auto;
+  border: 1px solid;
+  font-family: sans-serif;
+  color: #444;
+  border-collapse: collapse;
+  width: 880px;
+  height: 370px;
+  font-size: 16px;
+}
+
+/* Tabel */
+#content-tbl{
+	float: left;
+	width: 75%;
+	box-sizing: border-box;
+}
+
+#tbl-judul{
+  background-color: #8b8b8b;
+}
+
+#tbl-ganjil{
+  background-color:#CECECE;
+}
+
+#tbl-genap{
+  background-color: #eef3f0;
+}
+
+#tbl-ganjil:hover, #tbl-genap:hover{
+  background-color: white;
+}
+
+#bab{
+  text-align: center;
+}
+
+#grade{
+  text-align: center;
+}
+
+
+/* Identitas */
+#identitas{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#identitas img{
+  width: 20%;
+  border-radius: 50%;
+}
+
+#daftar-materi h3{
+	text-align: center;
+}
+
+#daftar-materi a{
+	text-decoration: none;
+	color: black;
+}
+
+#daftar-materi a:hover{
+	color: white;
+}
+
+#daftar-materi a.baca{
+	color: blue;
+}
+
+#btn-next{
+	width: 110px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #0059b3;
+	border-color: #0059b3;
+	cursor: pointer;
+}
+
+#btn-next:hover{
+	background-color: #3c55f7;
+}
+
+#btn-next a{
+	text-decoration: none;
+	color: white;
+}
+
+.next{
+	padding-top: 20px;
+	display: block;
+	margin: auto;
+}
+
+#judul{
+	text-align: center;
+	padding: 10px;
+}
+
+.modal-content{
+	background-color: white;
+	width: 70%;
+	margin: auto;
+}
+
+.modal-top{
+	padding: 2px 5px;
+	background-color: white;
+	color: white;
+}
+
+.modal-top h3{
+	text-align: center;
+}
+
+.modal-middle{
+	padding: 15px;
+	overflow: hidden;
+}
+
+.modal-bottom{
+	padding: 5px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.modal-bottom button{
+	padding: 7px 10px;
+	margin-top: 5px;
+}
+
+.error-modal{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+  height: 100%;
+	font-size: 14px;
+	overflow: auto;
+	animation-name: show_modal;
+	animation-duration: 0.3s;
+}
+
+.error-modal-content{
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	background-color: white;
+	box-shadow: 0 5px 7px 0 rgba(0,0,0,0.5);
+}
+
+.error-modal .modal-top{
+	background-color: #13334c;
+}
+
+.error-modal .modal-bottom button{
+	float: right;
+}
+
+@keyframes show_modal{
+	from{
+		transform: scale(0);
+		opacity: 0;
+		z-index: -1;
+	}
+	to{
+		transform: scale(1);
+		opacity: 1;
+		z-index: 2;
+	}
+}
+
+@keyframes hide_modal{
+	from{
+		z-index: 2;
+		transform: scale(1);
+		opacity: 1;
+	}
+	to{
+		z-index: -1;
+		transform: scale(0);
+		opacity: 0;
+	}
+}
+
+#btn_toTop{
+	position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+}
+
+/*Media Quary*/
+@media only screen and (min-width: 600px){
+	.kol-m-1{ float: left; width: 8.33%; }
+	.kol-m-2{ float: left; width: 16.66%; }
+	.kol-m-3{ float: left; width: 25%; }
+	.kol-m-4{ float: left; width: 33.33%; }
+	.kol-m-5{ float: left; width: 41.66%; }
+	.kol-m-6{ float: left; width: 50%; }
+	.kol-m-7{ float: left; width: 58.33%; }
+	.kol-m-8{ float: left; width: 66.66%; }
+	.kol-m-9{ float: left; width: 75%; }
+	.kol-m-10{ float: left; width: 83.33%; }
+	.kol-m-11{ float: left; width: 91.66%; }
+	.kol-m-12{ float: left; width: 100%; }
+}
+
+@media only screen and (min-width: 768px){
+	.kol-1{ float: left; width: 8.33%; }
+	.kol-2{ float: left; width: 16.66%; }
+	.kol-3{ float: left; width: 25%; }
+	.kol-4{ float: left; width: 33.33%; }
+	.kol-5{ float: left; width: 41.66%; }
+	.kol-6{ float: left; width: 50%; }
+	.kol-7{ float: left; width: 58.33%; }
+	.kol-8{ float: left; width: 66.66%; }
+	.kol-9{ float: left; width: 75%; }
+	.kol-10{ float: left; width: 83.33%; }
+	.kol-11{ float: left; width: 91.66%; }
+	.kol-12{ float: left; width: 100%; }
+}
+
+@media screen and (max-width: 1000px) {
+	 #content{
+			width: 100%;
+			padding: 20px;
+	 }
+
+	 aside{
+		 	width: 100%;
+		 	padding: 10px;
+		 	margin-top: 20px;
+	 }
+
+	 #content-tbl{
+		 width: 100%;
+	 }
+
+	 .nilainav .tabel{
+		 width: 100%;
+	 }
+
+	 th,
+	 td{
+		 font-size: 70%;
+	 }
+
+	 textarea{
+		 width: 100%;
+	 }
+
+	 #content input{
+		 margin: 0px -80px;
+	 }
+
+	 #form-daftar{
+		 width: 80%;
+	 }
+
+	 .submit-daftar{
+		 width: 20%;
+	 }
+
+	 #alasan_logo img{
+		 width: 80%;
+		 padding-top: 40px;
+	 }
+
+	 #alasan h2{
+		 font-size: 80%;
+	 }
+
+	 #alasan h4{
+		 font-size: 70%;
+	 }
+
+	 #paket-logo img{
+		 width: 100%;
+		 padding-top: 40px;
+	 }
+}

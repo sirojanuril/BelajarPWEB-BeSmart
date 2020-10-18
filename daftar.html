@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> BeSmart </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="img/lampu.ico">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+    <!-- FontAwesome CSS -->
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/solid.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/brands.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav" id="nav-menu">
+      <a href="index.html" id="home" title="BeSmart">
+        <div id="logo">
+          <img src="img/BeSmart-logo.png">
+        </div>
+      </a>
+      <a href="javascript:void(0);" id="nav-icon"><i class="fas fa-bars"></i></a>
+      <div class="menu">
+        <a href="index.html">Beranda</a>
+        <div id="menu-list">
+          <button href="#" id="list-down">Pendidikan<i class="fas fa-caret-down"></i></button>
+          <div id="list-daftar">
+            <a href="login.html">SD</a>
+            <a href="login.html">SMP</a>
+            <a href="login.html">SMA</a>
+          </div>
+        </div>
+        <a href="tentang.html">Tentang Kami </a>
+        <a href="login.html">Login</a>
+        <a href="daftar.html" class="klik">Daftar</a>
+      </div>
+    </div>
+  </nav>
+
+     <!-- Header -->
+  <div class="main">
+    <header>
+      <div class="title-login">
+        <img src="img/BeSmart-logo.png">
+        <h3>Be Smart Be Solution</h3>
+      </div>
+    </header>
+
+  <!-- form -->
+    <form id="form-daftar" action="login.html">
+      <div id="judul-form">
+        <h3>Daftar</h3>
+      </div>
+      <input type="text" name="nama" placeholder="nama"><br><br>
+      <input type="text" name="email" placeholder="email"> <br><br>
+      <input type="text" name="username" placeholder="username"> <br><br>
+      <input type="password" name="password" placeholder="password"> <br><br>
+      <input type="password" name="konfirm_password" placeholder="konfirmasi password"> <br><br>
+      <select class="selectPilih" name="jenisKelamin">
+        <option>--Pilih Jenis Kelamin</option>
+        <option value="Perempuan">Perempuan</option>
+        <option value="Laki-laki">Laki-laki</option>
+      </select>
+      <select class="selectPilih" name="paketPendidikan">
+        <option>--Pilih Paket Pendidikan--</option>
+        <option value="SD">SD</option>
+        <option value="SMP">SMP</option>
+        <option value="SMA">SMA</option>
+      </select>
+      <br> <br>
+      <button type="submit" id="submit" class="submit-daftar">Daftar</button> <br>
+      <div id="keterangan-login">
+        <h5>Sudah Punya Akun ?<a href="login.html">Login</a></h5>
+      </div>
+    </form>
+  </div>
+
+
+<!-- Modal -->
+  <div class="error-modal" id="error_modal">
+    <div class="error-modal-content">
+      <div class="modal-top">
+        <h3>Peringatan</h3>
+      </div>
+      <div class="modal-middle">
+        <b></b>
+      </div>
+      <div class="modal-bottom">
+        <button class="btn btn_utama" id="close_error_form">Close</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="footer-col">
+        <div class="footer-daftar">
+          <h3>BeSmart</h3>
+          <li><a href="tentang.html">Tentang kami</a></li>
+        </div>
+
+        <div class="footer-daftar">
+          <h3>Pendidikan</h3>
+          <li><a href="#">SD</a></li>
+          <li><a href="#">SMP</a></li>
+          <li><a href="#">SMA</a></li>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-daftar">
+          <h3>Kontak</h3>
+          <li><a href="#" target="_blank"><i class="fas fa-envelope"></i> cs@BeSmart.com</a></li>
+          <li><a href="#" target="_blank" ><i class="fas fa-phone-alt"></i> (0331) 9764000</a></li>
+        </div>
+
+        <div class="footer-daftar">
+          <h3>Ikuti kami</h3>
+          <div id="sosmed">
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>&ensp;
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>&ensp;
+            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div id="bottom-line">
+    <b>&copy; 2020 BeSmart BeSolution</b>
+  </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+    $('form').validasiRegister();
+  </script>
+</body>
+</html>
